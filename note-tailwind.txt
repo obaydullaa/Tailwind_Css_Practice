@@ -1,0 +1,27 @@
+1. Int Node Projects ==> npm init -y
+2. Developer Dependency tailwind css install  ===> npm i -D tailwindcss
+3. Tailwind css vs plugins  ==> Tailwind CSS IntelliSense
+4. Tailwind config file create ===> npx tailwindcss init
+5. tailwind.css :
+@ is directive 
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+.6 .vscode/settings.json file 
+
+    {
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true
+    }
+7. package.json:
+    -i => Input file location 
+    -o => out file location
+    -w =>for auto matic watch 
+
+      "scripts": {
+            "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+        },
+
+8. For tailwind run => npm run build
